@@ -1,3 +1,3 @@
 module.exports = function() {
-  require('bootstrap');
+  require('bootstrap/less/bootstrap.less');
 };
