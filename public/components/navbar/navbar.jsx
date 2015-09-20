@@ -2,27 +2,19 @@ require('./navbar.less');
 
 var React = require('React');
 
+var NavbarContainer = require('./navbar-container.jsx');
+var NavbarHeader = require('./navbar-header.jsx');
 var NavbarLogo = require('./navbar-logo.jsx');
 
 module.exports = React.createClass({
   render: function() {
     return (
       <div className="navbar navbar-default">
-        <div className="container-fluid">
-          <div className="navbar-header">
-            <button type="button" 
-                    className="navbar-toggle collapsed"
-                    data-toggle="collapse"
-                    data-target="#bs-example-navbar-collapse-1"
-                    aria-expanded="false">
-              <span className="sr-only">Toggle navigation</span>
-              <span className="icon-bar"></span>
-              <span className="icon-bar"></span>
-              <span className="icon-bar"></span>
-            </button>
+        <NavbarContainer>
+          <NavbarHeader>
             <NavbarLogo appName={this.props.appName} />
-          </div>
-        </div>
+          </NavbarHeader>
+        </NavbarContainer>
       </div>
     );
   }
