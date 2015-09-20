@@ -9,7 +9,7 @@ var NavbarLogo = require('./navbar-logo.jsx');
 module.exports = React.createClass({
   render: function() {
     return (
-      <div className="navbar navbar-default">
+      <div className="navbar navbar-default navbar-fixed-top">
         <NavbarContainer>
           <NavbarHeader>
             <NavbarLogo appName={this.props.appName} />
