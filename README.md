@@ -12,7 +12,7 @@ Install NodeJS https://nodejs.org/
 Clone the repo using Git:
 
 ```bash
-git clone https://github.com/HenriqueLimas/webpack-angular-example.git
+git clone https://github.com/HenriqueLimas/insta-react.git
 ```
 
 Alternatively you can [download](https://github.com/HenriqueLimas/insta-react/archive/master.zip)
