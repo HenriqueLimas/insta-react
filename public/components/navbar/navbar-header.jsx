@@ -1,12 +1,12 @@
 require('./navbar.less');
 
-var React = require('React');
+var React = require('react');
 
 module.exports = React.createClass({
   render: function() {
     return (
       <div className="navbar-header">
-        <button type="button" 
+        <button type="button"
                 className="navbar-toggle collapsed"
                 data-toggle="collapse"
                 data-target="#bs-example-navbar-collapse-1"

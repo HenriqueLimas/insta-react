@@ -1,6 +1,6 @@
 require('./navbar.less');
 
-var React = require('React');
+var React = require('react');
 
 var NavbarContainer = require('./navbar-container.jsx');
 var NavbarHeader = require('./navbar-header.jsx');
