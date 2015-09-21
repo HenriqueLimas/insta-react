@@ -6,19 +6,19 @@ module.exports = {
   },
   module: {
     loaders: [{
-      test: /.jsx$/,
-      loader: 'jsx-loader'
+      test: /\.jsx?$/,
+      loader: 'babel'
     }, {
-      test: /.css$/,
+      test: /\.css$/,
       loader: 'style!css'
     }, {
       test: /\.less$/,
       loader: 'style!css!less'
     }, {
-      test: /.(woff|woff2|ttf|eot|svg)(\?]?.*)?$/,
+      test: /\.(woff|woff2|ttf|eot|svg)(\?]?.*)?$/,
       loader: 'file-loader?name=res/[name].[ext]?[hash]'
     }, {
-      test: /.html$/,
+      test: /\.html$/,
       loader: 'raw'
     }]
   }
