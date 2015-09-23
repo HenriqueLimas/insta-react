@@ -15,6 +15,7 @@
   },
   "devDependencies": {
     "babel-loader": "^5.3.2",
+    "body-parser": "^1.14.0",
     "css-loader": "^0.18.0",
     "file-loader": "^0.8.4",
     "less": "^2.5.1",
